@@ -28,7 +28,8 @@ linters-settings:
   revive:
     min-confidence: 0.8
   goimports:
-    local-prefixes: github.com/NikitaSkrynnik  gocyclo:
+    local-prefixes: github.com/NikitaSkrynnik
+  gocyclo:
     min-complexity: 15
   maligned:
     suggest-new: true
