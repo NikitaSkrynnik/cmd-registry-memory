@@ -44,17 +44,17 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/networkservicemesh/api/pkg/api/registry"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/begin"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/grpcmetadata"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/refresh"
-	"github.com/networkservicemesh/sdk/pkg/registry/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/spiffejwt"
-	"github.com/networkservicemesh/sdk/pkg/tools/spire"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
+	"github.com/NikitaSkrynnik/api/pkg/api/registry"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/begin"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/grpcmetadata"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/refresh"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/core/next"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spiffejwt"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spire"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/token"
 
-	main "github.com/networkservicemesh/cmd-registry-memory"
+	main "github.com/NikitaSkrynnik/cmd-registry-memory"
 )
 
 type RegistryTestSuite struct {

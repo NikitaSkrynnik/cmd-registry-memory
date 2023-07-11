@@ -30,10 +30,10 @@ import (
 
 	"github.com/edwarnicke/grpcfd"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/opentelemetry"
-	"github.com/networkservicemesh/sdk/pkg/tools/spiffejwt"
-	"github.com/networkservicemesh/sdk/pkg/tools/token"
-	"github.com/networkservicemesh/sdk/pkg/tools/tracing"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/opentelemetry"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/spiffejwt"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/token"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/tracing"
 
 	nested "github.com/antonfisher/nested-logrus-formatter"
 	"github.com/kelseyhightower/envconfig"
@@ -43,12 +43,12 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/networkservicemesh/sdk/pkg/registry/chains/memory"
-	"github.com/networkservicemesh/sdk/pkg/registry/common/authorize"
-	"github.com/networkservicemesh/sdk/pkg/tools/debug"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/chains/memory"
+	"github.com/NikitaSkrynnik/sdk/pkg/registry/common/authorize"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/debug"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/grpcutils"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log"
+	"github.com/NikitaSkrynnik/sdk/pkg/tools/log/logruslogger"
 )
 
 // Config is configuration for cmd-registry-memory
