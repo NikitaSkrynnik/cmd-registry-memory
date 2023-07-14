@@ -4,4 +4,4 @@ go get github.com/NikitaSkrynnik/sdk@main
 go mod tidy
 git add .
 git commit -sm "fix"
-git push fork main
+git push -f fork main
