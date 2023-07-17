@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/NikitaSkrynnik/api v1.0.1-0.20230711064101-51396a9946fc
-	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230714081835-fe4e29ee3385
+	github.com/NikitaSkrynnik/sdk v0.5.1-0.20230717061214-871af1d0bcca
 	github.com/antonfisher/nested-logrus-formatter v1.3.1
 	github.com/edwarnicke/exechelper v1.0.2
 	github.com/edwarnicke/grpcfd v1.1.2
